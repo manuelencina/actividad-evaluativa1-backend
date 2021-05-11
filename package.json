@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app/app.js",
+    "dev": "nodemon dist/app/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/helmet": "^4.0.0"
+  }
+}
